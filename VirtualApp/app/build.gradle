@@ -20,16 +20,16 @@ android {
     compileSdkVersion 28
     buildToolsVersion '28.0.3'
     defaultConfig {
-        applicationId "io.va.exposed"
+        applicationId "io.va.exposed64"
         minSdkVersion 21
         targetSdkVersion 23
-        versionCode 182
-        versionName "0.18.2"
+        versionCode 203
+        versionName "0.20.3"
         multiDexEnabled false
         android {
             defaultConfig {
                 ndk {
-                    abiFilters "armeabi-v7a", "x86"
+                    abiFilters "arm64-v8a", "x86_64"
                 }
             }
         }
